@@ -46,7 +46,7 @@ export default function Error(props){
     return(
         <div style={cardStyle} className="card">
             <div style={holder}>
-                <span style={ props.oppsStyle ?  props.oppsStyle: oops}> OOPS! </span>
+                <span style={ props.oopsStyle ?  props.oopsStyle: oops}> OOPS! </span>
                 <span style={ props.messageStyle? props.messageStyle: message}>something went wrong</span>
                 {props.button?(
                     <props.button />
