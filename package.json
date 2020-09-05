@@ -1,7 +1,7 @@
 {
   "name": "react-npm-template",
   "version": "1.0.0",
-  "description": "Develop and deploy npm template for react components ",
+  "description": "dev and deploy template for publishing react components to npm",
   "main": "./dist/bundle.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --config webpack.dev.js --open --hot",
