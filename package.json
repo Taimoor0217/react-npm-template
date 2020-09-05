@@ -1,0 +1,51 @@
+{
+  "name": "react-500",
+  "version": "1.0.0",
+  "description": "A react component for internal server errors",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --config webpack.dev.js --open --hot",
+    "build": "webpack --mode production --config webpack.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Taimoor0217/react-500.git"
+  },
+  "keywords": [
+    "internal",
+    "server",
+    "error",
+    "500",
+    "error",
+    "react",
+    "500",
+    "error",
+    "react",
+    "500",
+    "error"
+  ],
+  "author": "Taimoor Ali",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Taimoor0217/react-500/issues"
+  },
+  "homepage": "https://github.com/Taimoor0217/react-500#readme",
+  "peerDependencies": {
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.8.0"
+  }
+}
