@@ -2,7 +2,7 @@ const path = require('path')
 const HTMLWebpackPlugin = require("html-webpack-plugin");
 module.exports = {
     entry: {
-        main: path.join(__dirname, "test/index.jsx") //for non static user wtitten code
+        main: path.join(__dirname, "dev/index.jsx") //for non static user wtitten code
     },
     output: {
         filename: "[name].bundle.js",
@@ -27,7 +27,7 @@ module.exports = {
     },
     plugins :[
         new HTMLWebpackPlugin({
-            template : path.join(__dirname, "test/index.html")
+            template : path.join(__dirname, "dev/index.html")
         })
     ],
 }

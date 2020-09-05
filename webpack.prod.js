@@ -1,10 +1,10 @@
 const path = require('path')
 module.exports = {
     entry: {
-        main: path.join(__dirname, "src/500.jsx") //for non static user wtitten code
+        main: path.join(__dirname, "src/Sample.jsx") //for non static user wtitten code
     },
     output: {
-        filename: "500.js",
+        filename: "bundle.js",
         path: path.resolve(__dirname, "dist"),
         libraryTarget: 'commonjs2'
     },
