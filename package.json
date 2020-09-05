@@ -30,7 +30,7 @@
     "url": "https://github.com/Taimoor0217/react-500/issues"
   },
   "homepage": "https://github.com/Taimoor0217/react-500#readme",
-  "peerDependencies": {
+  "dependencies": {
     "prop-types": "^15.6.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0"
