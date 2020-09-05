@@ -1,6 +1,6 @@
 {
   "name": "react-500",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A react component for internal server errors",
   "main": "./dist/500.js",
   "scripts": {
