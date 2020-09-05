@@ -1,7 +1,7 @@
 {
-  "name": "react-500",
-  "version": "1.0.1",
-  "description": "A react component for internal server errors",
+  "name": "react-npm-template",
+  "version": "1.0.0",
+  "description": "Develop and deploy npm template for react components ",
   "main": "./dist/500.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --config webpack.dev.js --open --hot",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Taimoor0217/react-500.git"
+    "url": "git+https://github.com/Taimoor0217/react-npm-template.git"
   },
   "keywords": [
     "internal server error",
@@ -20,9 +20,9 @@
   "author": "Taimoor Ali",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Taimoor0217/react-500/issues"
+    "url": "https://github.com/Taimoor0217/react-npm-template/issues"
   },
-  "homepage": "https://github.com/Taimoor0217/react-500#readme",
+  "homepage": "https://github.com/Taimoor0217/react-npm-template#readme",
   "dependencies": {
     "prop-types": "^15.6.0",
     "react": "^16.0.0",
@@ -41,5 +41,8 @@
     "webpack-cli": "^3.3.6",
     "webpack-dev-server": "^3.8.0",
     "babel-preset-stage-0": "^6.24.1"
+  },
+  "directories": {
+    "test": "test"
   }
 }
