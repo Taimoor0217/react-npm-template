@@ -46,12 +46,12 @@ export default function Error(props){
     return(
         <div style={cardStyle} className="card">
             <div style={holder}>
-                <span style={ props.oopsStyle ?  props.oopsStyle: oops}> OOPS! </span>
-                <span style={ props.messageStyle? props.messageStyle: message}>something went wrong</span>
+                <span style={ props.oopsStyle ?  props.oopsStyle: oops}> Hello! </span>
+                <span style={ props.messageStyle? props.messageStyle: message}>happy to have you back</span>
                 {props.button?(
                     <props.button />
                 ):(
-                    <a style={buttonStyle} href="/"> Homepage &#8594; </a>
+                    <a style={buttonStyle} href="/"> Explore &#8594; </a>
                 )}
             </div>
         </div>

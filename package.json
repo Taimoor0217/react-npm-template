@@ -2,7 +2,7 @@
   "name": "react-npm-template",
   "version": "1.0.0",
   "description": "Develop and deploy npm template for react components ",
-  "main": "./dist/500.js",
+  "main": "./dist/bundle.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --config webpack.dev.js --open --hot",
     "build": "webpack --mode production --config webpack.prod.js"
@@ -12,10 +12,8 @@
     "url": "git+https://github.com/Taimoor0217/react-npm-template.git"
   },
   "keywords": [
-    "internal server error",
-    "react error",
-    "500 error",
-    "server error react"
+    "react-npm-template",
+    "npm-template"
   ],
   "author": "Taimoor Ali",
   "license": "MIT",
