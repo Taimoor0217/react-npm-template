@@ -1,5 +1,6 @@
 src
 demo
+dev
 .babelrc
 webpack.prod.js
 webpack.dev.js
