@@ -11,12 +11,25 @@ module.exports = {
     module: {
         rules: [
             {
-                test :/\jsx?$/,
+                test: /\.(js|jsx)$/,
                 exclude : /node_modules/,
                 use : {
                     loader : "babel-loader"
                 }
-            }
+            },
+            {
+                test: /\.(png|svg|jpg|gif)$/,
+                use: [
+                    {
+                      loader: 'file-loader',
+                      options: {
+                        name(resourcePath, resourceQuery) {
+                            return '[path][name].[ext]';
+                        }
+                      },
+                    },
+                ],
+            },
         ]
     },
 }
